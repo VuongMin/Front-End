@@ -1,0 +1,272 @@
+header {
+    width: 100%;
+    background: #000000;
+    height: 51px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    box-sizing: border-box;
+    padding: 13px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img.logo {
+    width: 10%;
+}
+
+ul.menu {width: 50%;height: 321px;}
+
+li.item {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+li.item h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul.subitem {
+    position: absolute;
+    top: 38px;
+    left: -20%;
+    list-style: none;
+    width: 1000px;
+    z-index: 1;
+    background: white;
+    color: black;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 0;
+}
+header {
+    width: 100%;
+    background: #000000;
+    height: 51px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    box-sizing: border-box;
+    padding: 13px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img.logo {
+    width: 10%;
+}
+
+
+div.char {
+    display: flex;
+    width: 201px;
+    justify-content: space-between;
+}
+
+div.char span {text-transform: uppercase;position: relative;}
+
+.onv1 img {
+    width: 100%;
+    position: absolute;
+    height: 644px;
+}
+
+.onv1 article {
+    position: absolute;
+    color: white;
+    width: 466px;
+    height: 202px;
+    top: 50%;
+    left: 20%;
+    overflow: hidden;
+}
+
+.onv1 {
+    position: relative;
+    background-image: url(http://xpert-idea.com/prestashop/jakiro/demo/three/modules/xprtparrallaxblock/img/1448518310.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 844px;
+}
+.onv1 article h2 {
+    
+    font-size: 60px;
+    animation: cominh2 2s forwards;
+}
+.onv1 article p{
+    animation: taga 1s forwards;
+}
+.onv1 article a:hover {
+    background: white;
+    color: black;
+}
+
+.onv1 article a {
+    /* background: transparent; */
+    border: 1px solid;
+    width: 119px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    animation: taga 2s ease-in;
+}
+
+@keyframes cominh2{
+    from{opacity: 0;transform:translateX(-90%);}
+    to{opacity: 1;transform: translateX(0);}
+}
+@keyframes taga{
+    from{opacity: 0;transform: translateX(20%);}
+    to{opacity: 1;transform: translateX(0);}
+}
+section.V2 {
+    height: 842px;
+}
+
+.V2 .onv1 article {
+    color: black;
+    left: 60%;
+}
+
+
+
+.V2 .onv1 a {
+    background: black;
+    /* background: transparent; */
+}
+
+.V2 .onv1 a:hover {
+    background: transparent;
+}
+section.V3 {
+    height: 842px;
+}
+
+.onv3 {
+    background-image: url(http://xpert-idea.com/prestashop/jakiro/demo/three/modules/xprtparrallaxblock/img/1448518996.jpg);
+    height: 842px;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.V3 article {
+    /* POSITION: absolute; */
+    color: white;
+    top: 0;
+    left: 0;
+    height: 331px;
+    width: 1000px;
+    /* background: red; */
+    /* margin: auto; */
+    text-align: center;
+}
+
+.V3 p {margin: 0 0 18px;font-size: 18px;}
+
+.V3 h2 {
+    font-size: 60px;
+    margin: 0 0 20px;
+}
+
+.V3 a {
+    font-weight: 900;
+    width: 170px;
+    height: 28px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    border: 1px solid;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+
+.V3 a:hover {
+    background: white;
+    color: black;
+}
+nav {
+    width: 50%;
+}
+
+ul.partent-menu {
+    width: 100%;
+    position: relative;
+    list-style: none;
+}
+
+ul.parent-menu li {width: 27px;}
+
+ul.partent-menu > li {display: inline;float: left;margin-right: 100px;font-size: 10px;}
+ul.partent-menu > li > h2:hover ~ ul.subitem{
+    visibility: visible;
+    height: 100px;
+    transition: 0.9s;
+}
+ul.subitem h2 {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+ul.subitem p {
+    font-size: 13px;
+}
+.onv4 {
+    background-image: url(http://xpert-idea.com/prestashop/jakiro/demo/three/modules/xprtparrallaxblock/img/1448520962.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.onv4 article {
+    color: black;
+    position: absolute;
+    top: 50%;
+}
+
+.onv4 a {
+    color: white;
+    display: inline-block;
+    width: 170px;
+    background: black;
+    height: 31px;
+}
+footer {
+    background: #2b2b2b;
+}
+
+section.on {
+    width: 1200px;
+    margin: auto;
+    height: 400px;
+}
+
+section.on img {
+    justify-content:;
+    padding: 120px 5px 0;
+    text-align: center;
+    position: relative;
+    left: 43%;
+    margin-bottom: 50px;
+}
+
+section.on .item {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}''''''''''

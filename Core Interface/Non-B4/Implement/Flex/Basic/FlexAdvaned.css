@@ -1,0 +1,28 @@
+section.parent{
+    display: flex;
+       justify-content: space-between;
+}
+div.img{
+    width:25%;/*this width follow parent (.parent) */
+}
+div.img img{
+    width: 100%;/*this width follow  (.img) */
+}
+div.text{
+    width:40% ;
+    /*part 02*/
+    display: flex;
+    justify-content: space-between;
+}
+div.textse{
+    width: 25%;
+}
+div.child01{
+    width: 30%;
+}
+div.child02{
+    width: 30%;
+}
+div.child03{
+ width: 30%;
+}

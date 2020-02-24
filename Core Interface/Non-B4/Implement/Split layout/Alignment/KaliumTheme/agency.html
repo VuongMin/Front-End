@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section.layout{
+            width: 360px;
+            height: 360px;
+            margin: auto;
+            position: relative;
+        }
+     
+        div.CL img{
+            width: 100%;
+        }
+        div.hidden{
+            top: 18px;
+            left: 18px;
+            position: absolute;
+            background: whitesmoke;
+            width: 90%;
+            height: 90%;
+            opacity: 0;
+            transition: 2s;
+           
+        }
+        div.CL div.icon{
+             font-size: 30px;
+            margin: 30px 0 0 30px;
+        }
+        div.hidden article{
+            position: absolute;
+            bottom: 45px;
+            left: 30px;
+            opacity: 0;
+            transition: 0.4s;
+        }
+        div.hidden span{
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            opacity: 0;
+            transition: 2s;
+        }
+        section.layout:hover  div.hidden{
+            opacity: 1;
+          
+        }
+        section.layout:hover article{
+            opacity: 1;
+            transition-delay: 0.2s;
+             padding-bottom: 15px;
+          
+        }
+        section.layout:hover span{
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="layout">
+        <div class="CL">
+            <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/03/b41864d679e4c077fda190149299e47d-558x558.jpg" alt=>
+            <div class="hidden">
+                <div class="icon">  <i class="fa fa-heart" aria-hidden="true"></i></div>
+                <article>Desk CONCEFT</article>
+                 <span>Photogarphy</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

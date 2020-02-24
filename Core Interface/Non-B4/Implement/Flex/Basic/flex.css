@@ -1,0 +1,11 @@
+div.parent{
+    display: flex;
+    width: 700px;
+}
+img.imgFirst{
+    width: 500px;
+    border: 10px solid;
+}
+img.imgSecond{
+    width: 200px;
+}

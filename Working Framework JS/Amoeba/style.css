@@ -1,0 +1,242 @@
+:root{
+    --lato:'Lato', sans-serif;
+    --openSan:'Open Sans', sans-serif;
+}
+.row.headOn .col-sm-12 {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+
+.head-navigate i {
+    margin: 0 3px;
+    font-size: 20px;
+    padding: 10px 20px 10px;
+    border: 1px solid #8080806b;
+}
+
+.head-navigate a {display: inline-block;margin-bottom: 0px;transform: translateY(-3px);}
+
+@media only screen and (max-width:670px)      {
+    .headlogo{display:none;}
+    .head-navigate{
+        margin:auto;
+    }
+}
+nav.navbar{
+    justify-content: space-between!important;
+    background: #4a7771;
+    transition: 1s;
+   
+}
+header .navbar-collapse {
+    justify-content: space-between;
+    flex-grow: unset;
+}
+html,body {width: 100%;height: 100%;}
+
+section.banner {
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    font-family: var(--lato);
+    text-align: center;
+    padding: 8% 0;
+    background-image: url(Images/moutand.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 442px;
+    margin-top: 100px;
+}
+
+section.banner h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+section.banner a {
+    display: inline-block;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: 8px 28px 10px;
+    border-radius: 17px;
+}
+
+section.banner p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+header .container-fluid{
+    padding: 0;
+}
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 3;
+    top: 0;
+}
+section.about-us {
+    padding: 60px 0;
+    color: #555555;
+    font-family: var(--lato);
+}
+
+section.about-us h1 {
+    font-size: 32px;
+    font-family: var(--lato);
+    margin: 0 0 20px;
+}
+section.service {
+    background: #f2f9f8;
+    font-family: var(--lato);
+    color: #555555;
+    padding: 60px 0;
+}
+
+section.service .row.item {
+    padding-top: 30px;
+}
+
+section.service .row.item i {
+    display: block;
+    margin: 0 0 15px;
+    font-size: 45px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: t;
+}
+
+section.call-to-action {
+    background-image: url(Images/call-to-action-bg.jpg);
+    background-attachment: fixed;
+    padding: 60px 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: var(--lato);
+}
+
+section.call-to-action h3 {font-weight: 700;text-transform: uppercase;}
+
+section.call-to-action a {
+    padding: 8px 28px 10px;
+    color: #ffffff;
+    text-transform: capitalize;
+    border: 1px solid;
+    border-radius: 22px;
+}
+.row.Portfolio-on {
+    padding: 60px 0;
+    font-family: var(--lato);
+    color: #555555;
+}
+
+.row.Portfolio-on h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.row.Portfolio-on ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.row.Portfolio-on ul li {
+    font-size: 12px;
+    font-family: var(--opensan);
+    margin:  0 15px 5px 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.row.Portfolio-on ul li.active {
+    background: #70b9b0;
+    border-radius: 3px;
+}
+
+.col-sm-4._1item img {
+    width: 92%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-left: 16px;
+}
+
+
+.col-sm-4._1item {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 262px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+._1item-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+._1item-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    opacity: 0;
+}
+._1item-layer p {
+    margin: 0;
+}
+.col-sm-4._1item:hover img {
+    transform: scale(1.5);
+    transition: 1s;
+}
+.col-sm-4._1item {
+    opacity: 1;
+}.col-sm-4._1item:after {content: '';display: block;position: absolute;height: 100%;width: 100%;top: 0;left: 0;background: #70b9b0;opacity: 0;z-index: 2;}
+
+.col-sm-4._1item:hover:after {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.col-sm-4._1item:hover _1item-layer {
+    opacity: 1;
+}
+
+
+.col-sm-4._1item:hover ._1item-layer {
+    opacity: 1;
+    transition: 1s;
+    margin-top: 100px;
+    z-index: 3;
+}
+.row.port-item {
+    margin: 15px 0;
+}
+.row.Portfolio-on ul li:hover {
+    background: #70b9b0;
+border-radius: 3px;
+}
+footer {
+    padding: 60px 0;
+    background: #555555;
+    color: #ffff;
+}
+nav.plusWidth{
+    height: 80px   ;
+   
+}

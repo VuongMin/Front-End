@@ -1,0 +1,7 @@
+div.change{
+    margin-left: 100%;
+    transition: 1s;
+}
+div.row{
+    transition: 2s;
+}

@@ -1,0 +1,45 @@
+.item {
+    width: 500px;
+    margin: auto;
+    padding: 30px 0;
+    border-bottom: 1px solid;
+}
+
+.item h1 {
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.listimg img {
+    width: 33%;
+    float: left;
+    height: 100%;
+}
+
+.listimg {
+    height: 110px;
+}
+.item:hover h1 {
+    color: lightblue;
+}
+.item h1:after {
+    content: '\f0d7';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    right: 0;
+    top: 0;
+    transform: translateX(20px);
+    transition: 0.4s;
+    position: absolute;
+    -moz-osx-font-smoothing: grayscale;
+}
+.item h1:hover:after {
+    transform: translateX(-10px);
+}
+.item h1.iconUp::after {
+    transform: rotate(180deg);
+}

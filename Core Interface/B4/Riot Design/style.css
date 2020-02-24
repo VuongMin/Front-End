@@ -1,0 +1,61 @@
+#collapsibleNavId ul.navbar--right {margin-left: 55%;}
+header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+
+header section.slides {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    height: 600px;
+}
+
+header nav {
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+   
+}
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0.navbar--right li a {
+    color: white;
+}
+
+div#carouselId {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.carousel-item.active {
+    height: 600px;
+}
+#collapsibleNavId.navbar-collapse.collapse.show {
+    color: #1a101a;
+}
+
+div#collapsibleNavId.show {
+    background: #0000006e;
+}
+
+span.navbar-toggler-icon {
+    color: white;
+}
+
+button.navbar-toggler.d-lg-none.collapsed span {
+    color: white;
+}
+img.logo {
+    width: 130px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}

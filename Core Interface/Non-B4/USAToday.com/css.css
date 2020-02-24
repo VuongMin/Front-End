@@ -1,0 +1,16 @@
+section.pageBody {
+    width: 1000px;
+    margin: auto;
+   overflow: hidden;
+    position: relative;
+    height: 279px;
+}
+
+img.bg {width: 50%;position: absolute;height: 193px;left: 20%;}
+
+.listImg {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+}
+

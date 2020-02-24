@@ -1,0 +1,119 @@
+.container-fluid.Head-on {.container-fluid.Head-on {
+    background: #353c3e;
+    color: #ffffff;
+};
+}
+
+.container-fluid.Head-on {
+    background: #353c3e;
+    color: #ffffff;
+    height: 80px;
+}
+
+.col-sm-6.head-on__left {
+    display: flex;
+}
+
+.col-sm-6.head-on__left i {
+    display: inline-block;
+    background: #f26c4f;
+    padding: 31px 25px;
+    border-bottom: 4px solid #d04e33;
+    margin-right: 18px;
+}
+
+
+.col-sm-6.head-on__left p {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 30px 0;
+    height: 80px;
+    font-size: 24px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.col-sm-6.head-on__right {
+    padding: 30px 40px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.container-fluid.Head-below {
+    background: #40494c;
+}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0.nav-head {
+    font-size: 13px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0.nav-head li a {
+    padding: 0;
+}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0.nav-head li a:after {content: '/';}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0.nav-head li {
+    padding: 27px 17px;
+}
+
+nav.navbar.navbar-expand-sm.navbar-dark {
+    padding: 0;
+}
+@media only screen and (max-width:576px){
+    header{
+       background:#353c3e;
+       
+   }
+   .container-fluid.Head-below{
+    margin-top:60px;
+}
+}
+section.about h2 {
+    padding: 34px 42px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #777777;
+    margin: 0;
+}
+section.about small {
+    font-size: 12px;
+    line-height: 25px;
+    padding: 0px 124px;
+    color: #d8d8d8;
+    display: inline-block;
+}
+.row.page-parent {
+    padding: 72px 0;
+    font-size: 12px;
+    line-height: 21px;
+    color: #aeaeae;
+}
+
+.col-sm-3.page-item.active h2 {
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.col-sm-3.page-item img {
+    width: 100%;
+}
+
+.col-sm-3.page-item h2 {
+    padding: 0 40px;
+    font-size: 16px;
+    line-height: 25px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    color: #f26c4f;
+}
+
+.col-sm-3.page-item p {
+    padding: 0 40px;
+}
+body{
+    background-color: #f6f6f6;
+}

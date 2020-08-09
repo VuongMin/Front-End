@@ -1,5 +1,0 @@
-Dùng boxsing để khi nào muốn padding hoặc border không làm thêm tăng cộng dồn kích thước mà muốn nó vần là kích thước cũ.
-Display: none and block không sử dung được transiton .
-overflow:hidden  để ẩn che dấu các phần tràn ra!!
-Để transiton : thuộc thích trước hover và hover muốn chuyển động phải giống nhau chỉ tăng size  chứ không thay đôi prop.
-Ngoài không dùng layer thì mới có margin auto (không có position)

@@ -1,0 +1,78 @@
+
+@mixin flex($jutify,$align) {
+    display: flex;
+    justify-content: $jutify;
+    align-items: $align;
+}
+// layout
+.header{
+    height: $height-nav;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    @include flex(center,center );
+    .logo-wrapper{
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 60px;
+      width: 60px;
+      background-color: $bg-icon;
+  
+       .logo_text{
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          left: 50%;
+           color: $text-white;
+           font-family: $font-pacifico;
+           text-transform: uppercase;
+           font-size: 1.5rem;
+           width: 100%;
+           span{
+            margin: 0 7px;
+         }
+       }
+       .logo_text:after{
+          content: "\f21e";
+          position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           display: inline-block;
+           font: normal normal normal 14px/1 FontAwesome;
+           font-size: inherit;
+           text-rendering: auto;
+           -webkit-font-smoothing: antialiased;  
+           font-size: 0.9rem;
+    
+       }
+    }
+    .nav{
+       height: $heigh-menu;
+    }
+    .nav-list{
+      @include flex(center,center );
+      list-style: none;   
+      width: 100%;   
+    }
+    .nav__item{
+       padding: 18px;
+    }
+    .nav-list.has-heart{
+       
+    }
+    .nav__link{
+      color:$text-color;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+    }
+    .nav__sub{
+        display: none;
+   
+  
+   }
+}

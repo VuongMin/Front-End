@@ -1,0 +1,3 @@
+//Nên .bind(this) function để react có thể hiểu được stage ...
+//Event onchange Input không cần tham số mà trong function nó sẽ có một cái systhenicReact của form . 
+//Type of dùng kiểm tra kiểu dữ liệu của js còn Dom.type thì check kiểu của DOM đó .

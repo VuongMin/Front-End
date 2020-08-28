@@ -1,0 +1,17 @@
+{
+  "products": [
+    {
+      "name": "a",
+      "price": 0,
+      "status": true,
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "productID": 1,
+      "content": "good good goode!"
+    }
+  ]
+}

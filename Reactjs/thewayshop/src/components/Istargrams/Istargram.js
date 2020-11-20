@@ -7,140 +7,140 @@ export default class Istargram extends Component {
                 <div className="main-instagram owl-carousel owl-theme owl-loaded owl-drag">
                     <div className="owl-stage-outer"><div className="owl-stage" style={{ "-webkit-transform": "translate3d(-3021px, 0px, 0px)", "-ms-transform": "translate3d(-3021px, 0px, 0px)", "transform": "translate3d(-3021px, 0px, 0px)", "-webkit-transition": "all 0.25s ease 0s", "transition": "all 0.25s ease 0s", "width": "4317px" }}><div className="owl-item cloned" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-06.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-06.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-07.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-07.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-08.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-08.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-09.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-09.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-05.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-05.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-01.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-01.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-02.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-02.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-03.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-03.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-04.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-04.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-05.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-05.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-06.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-06.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-07.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-07.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-08.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-08.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-09.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-09.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item active" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-05.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-05.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned active" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-01.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-01.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned active" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-02.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-02.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned active" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-03.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-03.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-04.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-04.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>
                         </div>
                     </div></div><div className="owl-item cloned" style={{ "width": "215.8px" }}><div className="item">
                         <div className="ins-inner-box">
-                            <img src="images/instagram-img-05.jpg" alt />
+                            <img src="/thewayshop/images/instagram-img-05.jpg"  />
                             <div className="hov-in">
                                 <a href="#"><i className="fab fa-instagram" /></a>
                             </div>

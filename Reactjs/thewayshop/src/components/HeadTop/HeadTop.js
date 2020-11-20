@@ -13,30 +13,8 @@ export default class HeadTop extends Component {
                     className="offer-box"
                 
                   >
-                    <li style={{ opacity: "0.895078" }}>
-                      <i className="fab fa-opencart" /> 50% - 80% off on Fashion
-                    </li>
-                    <li style={{ display: "none" }}>
-                      <i className="fab fa-opencart" /> 20% off Entire Purchase
-                      Promo code: offT20
-                    </li>
-                    <li style={{ display: "none" }}>
-                      <i className="fab fa-opencart" /> Off 50%! Shop Now
-                    </li>
-                    <li style={{ display: "none" }}>
-                      <i className="fab fa-opencart" /> Off 10%! Shop Now Man
-                    </li>
-                    <li style={{ display: "none" }}>
-                      <i className="fab fa-opencart" /> 50% - 80% off on Fashion
-                    </li>
-                    <li style={{ display: "none" }}>
-                      <i className="fab fa-opencart" /> 20% off Entire Purchase
-                      Promo code: offT20
-                    </li>
-                    <li style={{ display: "none" }}>
-                      <i className="fab fa-opencart" /> Off 50%! Shop Now
-                    </li>
-                    <li style={{ display: "none" }}>
+                    
+                    <li >
                       <i className="fab fa-opencart" /> Off 10%! Shop Now Man
                     </li>
                   </ul>
@@ -46,19 +24,7 @@ export default class HeadTop extends Component {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
               <div className="custom-select-box">
                 <div className="btn-group bootstrap-select show-tick form-control">
-                  <button
-                    type="button"
-                    className="btn dropdown-toggle btn-default btn-light"
-                    data-toggle="dropdown"
-                    role="button"
-                    data-id="basic"
-                    title="¥ JPY"
-                  >
-                    <span className="filter-option pull-left">¥ JPY</span>&nbsp;
-                    <span className="bs-caret">
-                      <span className="caret" />
-                    </span>
-                  </button>
+                  
                   <div className="dropdown-menu open" role="combobox">
                     <div
                       className="dropdown-menu inner"

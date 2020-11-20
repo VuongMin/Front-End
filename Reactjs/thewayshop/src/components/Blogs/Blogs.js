@@ -17,7 +17,7 @@ export default class Blogs extends Component {
                         <div className="col-md-6 col-lg-4 col-xl-4">
                             <div className="blog-box">
                                 <div className="blog-img">
-                                    <img className="img-fluid" src="images/blog-img.jpg" alt />
+                                    <img className="img-fluid" src="/thewayshop/images/blog-img.jpg"  />
                                 </div>
                                 <div className="blog-content">
                                     <div className="title-blog">
@@ -25,9 +25,9 @@ export default class Blogs extends Component {
                                         <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
                                     </div>
                                     <ul className="option-blog">
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Likes"><i className="far fa-heart" /></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Views"><i className="fas fa-eye" /></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Comments"><i className="far fa-comments" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Likes"><i className="far fa-heart" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Views"><i className="fas fa-eye" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Comments"><i className="far fa-comments" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ export default class Blogs extends Component {
                         <div className="col-md-6 col-lg-4 col-xl-4">
                             <div className="blog-box">
                                 <div className="blog-img">
-                                    <img className="img-fluid" src="images/blog-img-01.jpg" alt />
+                                    <img className="img-fluid" src="/thewayshop/images/blog-img-01.jpg"  />
                                 </div>
                                 <div className="blog-content">
                                     <div className="title-blog">
@@ -43,9 +43,8 @@ export default class Blogs extends Component {
                                         <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
                                     </div>
                                     <ul className="option-blog">
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Likes"><i className="far fa-heart" /></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Views"><i className="fas fa-eye" /></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Comments"><i className="far fa-comments" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Views"><i className="fas fa-eye" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Comments"><i className="far fa-comments" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -53,7 +52,7 @@ export default class Blogs extends Component {
                         <div className="col-md-6 col-lg-4 col-xl-4">
                             <div className="blog-box">
                                 <div className="blog-img">
-                                    <img className="img-fluid" src="images/blog-img-02.jpg" alt />
+                                    <img className="img-fluid" src="/thewayshop/images/blog-img-02.jpg"  />
                                 </div>
                                 <div className="blog-content">
                                     <div className="title-blog">
@@ -61,9 +60,9 @@ export default class Blogs extends Component {
                                         <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>
                                     </div>
                                     <ul className="option-blog">
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Likes"><i className="far fa-heart" /></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Views"><i className="fas fa-eye" /></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Comments"><i className="far fa-comments" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Likes"><i className="far fa-heart" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Views"><i className="fas fa-eye" /></a></li>
+                                        <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Comments"><i className="far fa-comments" /></a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -31,12 +31,12 @@ export default class Products extends Component {
                                     <div className="type-lb">
                                         <p className="sale">Sale</p>
                                     </div>
-                                    <img src="images/img-pro-01.jpg" className="img-fluid" alt="Image" />
+                                    <img src="/thewayshop/images/img-pro-01.jpg" className="img-fluid" alt="Image" />
                                     <div className="mask-icon">
                                         <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="View"><i className="fas fa-eye" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Compare"><i className="fas fa-sync-alt" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-="View"><i className="fas fa-eye" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-origtitle="Compare"><i className="fas fa-sync-" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  datainal-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
                                         </ul>
                                         <a className="cart" href="#">Add to Cart</a>
                                     </div>
@@ -53,12 +53,12 @@ export default class Products extends Component {
                                     <div className="type-lb">
                                         <p className="new">New</p>
                                     </div>
-                                    <img src="images/img-pro-02.jpg" className="img-fluid" alt="Image" />
+                                    <img src="/thewayshop/images/img-pro-02.jpg" className="img-fluid" alt="Image" />
                                     <div className="mask-icon">
                                         <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="View"><i className="fas fa-eye" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Compare"><i className="fas fa-sync-alt" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="View"><i className="fas fa-eye" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Compare"><i className="fas fa-sync-" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
                                         </ul>
                                         <a className="cart" href="#">Add to Cart</a>
                                     </div>
@@ -75,12 +75,12 @@ export default class Products extends Component {
                                     <div className="type-lb">
                                         <p className="sale">Sale</p>
                                     </div>
-                                    <img src="images/img-pro-03.jpg" className="img-fluid" alt="Image" />
+                                    <img src="/thewayshop/images/img-pro-03.jpg" className="img-fluid" alt="Image" />
                                     <div className="mask-icon">
                                         <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="View"><i className="fas fa-eye" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Compare"><i className="fas fa-sync-alt" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="View"><i className="fas fa-eye" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Compare"><i className="fas fa-sync-" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
                                         </ul>
                                         <a className="cart" href="#">Add to Cart</a>
                                     </div>
@@ -97,12 +97,12 @@ export default class Products extends Component {
                                     <div className="type-lb">
                                         <p className="sale">Sale</p>
                                     </div>
-                                    <img src="images/img-pro-04.jpg" className="img-fluid" alt="Image" />
+                                    <img src="/thewayshop/images/img-pro-04.jpg" className="img-fluid" alt="Image" />
                                     <div className="mask-icon">
                                         <ul>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="View"><i className="fas fa-eye" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Compare"><i className="fas fa-sync-alt" /></a></li>
-                                            <li><a href="#" data-toggle="tooltip" data-placement="right" title data-original-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="View"><i className="fas fa-eye" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Compare"><i className="fas fa-sync-" /></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="right"  data-original-title="Add to Wishlist"><i className="far fa-heart" /></a></li>
                                         </ul>
                                         <a className="cart" href="#">Add to Cart</a>
                                     </div>
